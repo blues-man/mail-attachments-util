@@ -1,8 +1,9 @@
 #!/bin/bash
 # mail_util.sh: an utility for purging and backuping Attachments of Mail client (Mac OS X)
 # author: Natale Vinto <ebballon at gmail dot com>
+
 MAIL_FOLDER="/Users/$(whoami)/Library/Mail/V2/"
-EXTERNAL_DRIVE=""
+EXTERNAL_DRIVE="" # FILL ME!!!!
 
 OPTION=$1
 MODE=$2
