@@ -11,6 +11,7 @@ If your Mail is installed elsewhere than your $HOME, please update also it.
 
 The script is configured to backup your attachments, so if you don't pass any option, it will save all your attachments file
 in the external drive dir, organized by your account.
+
 e.g. /Volumes/HD/Backupdir/IMAP-foo@foo.com/{INBOX,Sent Messages,any}.mbox/file1.jpg,doc.docx,file.odt
 
 Simply launch it with no parameters to save your attachments to an external dir (this WON'T delete your attachments)
@@ -21,5 +22,6 @@ If you want to purge your Mail attachments' dir, use --delete option. You may wa
 Usage:
 
 ./mail_util.sh                    # Backup all your attachments to $EXTERNAL_DRIVE"
+
 ./mail_util.sh [--delete] [--ask] # Delete all your attachments, when used with --ask it ask you for each file found, if you really want to delete it."
 
