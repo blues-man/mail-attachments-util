@@ -23,5 +23,5 @@ Usage:
 
 ./mail_util.sh                    # Backup all your attachments to $EXTERNAL_DRIVE"
 
-./mail_util.sh [--delete] [--ask] # Delete all your attachments, when used with --ask it ask you for each file found, if you really want to delete it."
+./mail_util.sh [--delete] [--ask] # Delete all your attachments, when used with --ask it ask for each mail account found, if you really want to delete it."
 
